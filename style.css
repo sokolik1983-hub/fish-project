@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#canvas1 {
+    width: 1600px;
+    height: 900px;
+    border: 4px solid black;
+    background: linear-gradient(to bottom, lightblue,darkblue, black);
+}
+body {
+    /*background: url("./sprites/111.jpg") no-repeat center/cover;*/
+    cursor: none;
+}
